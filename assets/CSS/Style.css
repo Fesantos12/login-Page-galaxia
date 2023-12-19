@@ -112,6 +112,11 @@ header {
     color: white;
     background: linear-gradient(#501794, #3E70A1);
     cursor: pointer;
+    transition: 2s ease;
+}
+
+.container-form form .sign-in:hover {
+    background: linear-gradient(#3E70A1, #501794);
 }
 
 .container-form .linha {
@@ -150,6 +155,12 @@ header {
     font-weight: 300;
     gap: 5px;
     cursor: pointer;
+    transition: .2s ease;
+}
+
+.container-form .buttons button:hover {
+    width: 90%;
+    height: 40px;
 }
 
 .container-form .buttons button img {
@@ -166,6 +177,7 @@ header {
     font-weight: 500;
 }
 
-.container-form .by .colorido {
+.container-form .by a {
     color: #9D5CE9;
+    text-decoration: none;
 }
