@@ -181,3 +181,77 @@ header {
     color: #9D5CE9;
     text-decoration: none;
 }
+
+/* responsividade */
+
+@media (max-width: 768px) {
+    .container-form h2 {
+        font-size: 40px;
+    }
+
+    .container-form h4 {
+        font-size: 10px;
+    }
+
+    .container-form form input {
+        height: 50px;
+        font-size: 10px;
+    }
+
+    .container-form form .sign-in {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .container-form .Or {
+        font-size: 10px;
+    }
+
+    .container-form .buttons button {
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .container-form .buttons button img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .container-form .by {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container-logo {
+        width: 50%;
+        align-items: center;
+    }
+
+    .container-logo h1 {
+        font-size: 30px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .container-form {
+        width: 50%;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container-logo h1 {
+        font-size: 20px;
+    }
+}
